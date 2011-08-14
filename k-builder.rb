@@ -3,7 +3,7 @@
 system('clear')
 
 def menu
-  puts "please choose one of the availble commands"
+  puts "please choose one of the available commands"
 
   menu = [
     "1: make menuconfig",
