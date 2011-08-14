@@ -32,7 +32,6 @@ def main
 		menu()
 	end
 
-
 end
 
 main()
