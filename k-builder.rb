@@ -6,10 +6,10 @@ def menu
 	puts "please choose one of the availble commands"
 
 	menu = [
-		"1: build kernel",
-		"2: make menuconfig",
-		"3: make defconfig",
-		"4: make clean",
+		"1: make menuconfig",
+		"2: make defconfig",
+		"3: make clean",
+		"4: build kernel",
 		"5: move modules and zImage",
 		"6: make any-kernel zip",
 		"7: build boot.img",
