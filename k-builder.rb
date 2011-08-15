@@ -1,5 +1,7 @@
 #!/usr/bin/env ruby -wKU
 
+require "./boot-tools.rb"
+
 system('clear')
 
 def menu
@@ -16,7 +18,7 @@ def menu
     "8: build flashable boot.img zip",
     "9: exit"
  ]
- puts menu
+	puts menu
 
 end
 
@@ -27,9 +29,15 @@ def main
   while s != "9"
     print "> "
     s = gets.chomp
+<<<<<<< HEAD
+
+		app = Boot.new
+		case s
+=======
     system('clear')
 
     case s
+>>>>>>> origin/master
 
       when "1"
         puts "1"
@@ -40,8 +48,13 @@ def main
       when "3"
         puts "3"
 
+<<<<<<< HEAD
+			when "4"
+				app.mkKernel
+=======
       when "4"
         puts "4"
+>>>>>>> origin/master
 
       when "5"
         puts "5"
@@ -60,7 +73,12 @@ def main
 
     end
 
+<<<<<<< HEAD
+		system('clear')
+		menu()
+=======
     menu()
+>>>>>>> origin/master
 
   end
 
