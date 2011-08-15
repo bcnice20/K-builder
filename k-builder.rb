@@ -29,15 +29,9 @@ def main
   while s != "9"
     print "> "
     s = gets.chomp
-<<<<<<< HEAD
 
-		app = Boot.new
-		case s
-=======
-    system('clear')
-
+    app = Boot.new
     case s
->>>>>>> origin/master
 
       when "1"
         puts "1"
@@ -48,13 +42,8 @@ def main
       when "3"
         puts "3"
 
-<<<<<<< HEAD
-			when "4"
-				app.mkKernel
-=======
       when "4"
-        puts "4"
->>>>>>> origin/master
+	 app.mkKernel
 
       when "5"
         puts "5"
@@ -72,13 +61,8 @@ def main
         puts "9"
 
     end
-
-<<<<<<< HEAD
-		system('clear')
-		menu()
-=======
+    system('clear')
     menu()
->>>>>>> origin/master
 
   end
 
